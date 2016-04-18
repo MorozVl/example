@@ -14,6 +14,7 @@ int main(){
 
 	return 0;
 }
+
 bool DisplayMessage(){
 	cout << "I Love C++!" << endl;
 	return true;
