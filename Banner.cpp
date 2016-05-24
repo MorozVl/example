@@ -13,6 +13,10 @@ class Banner  	//Имя класса
 		cout <<"Banner's constructor" << endl;
 		favoriteProgram = "C++";
 	}
+	public: Banner(string param1){
+		cout << "Banner's Overloaded Constractor" << endl;
+		favoriteProgram = param1;
+	}
 	public: void Display(){			//поведение класса
 		cout << "I Love " << favoriteProgram << endl;
 	}
