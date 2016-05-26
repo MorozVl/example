@@ -19,6 +19,11 @@ class Banner  	//Имя класса
 		numberOfBannerObject++;
 		favoriteProgram = param1;
 	}
+
+	~Banner(){
+		cout << "Banner's Destructor" << endl;
+	}
+	
 	public: void HowMany(){
 		cout << "The nuber of Banner objects is " <<
 			numberOfBannerObject << endl;
